@@ -23,7 +23,7 @@
 mkdir build
 cd build
 
-cmake  ..
+cmake -G "MinGW Makefiles" ..
 
 # Сборка проекта
 cmake --build .
